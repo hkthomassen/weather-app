@@ -47,7 +47,7 @@
           </div>
           <div class="row">
             <div class="col-6">
-              <div class="clearfix weather-temperature">
+              <div class="d-flex weather-temperature">
                 <img src="#" alt="" class="float-left" id="icon" />
                 <div class="float-left">
                   <span class="current-temperature" id="temperature"></span>
@@ -65,22 +65,7 @@
               </ul>
             </div>
           </div>
-          <div class="weather-forecast">
-            <div class="row">
-              <div class="col-2">
-                <div class="weather-forecast-days">Thu</div>
-                <img
-                  src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png"
-                  alt=""
-                  width="36px"
-                />
-                <div class="weather-forecast-temperatures">
-                  <span class="weather-forecast-temperatures-max">18°</span>
-                  <span class="weather-forecast-temperatures-min">12°</span>
-                </div>
-              </div>
-            </div>
-          </div>
+          <div class="weather-forecast" id="forecast"></div>
         </div>
         <small
           ><a href="https://github.com/hkthomassen/weather-app" target="_blank"
