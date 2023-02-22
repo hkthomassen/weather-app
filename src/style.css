@@ -65,6 +65,25 @@ li {
   text-decoration: none;
 }
 
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.weather-forecast-days {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
+
+.weather-forecast-temperatures-min {
+  opacity: 0.5;
+}
+
 #description:first-letter {
   text-transform: capitalize;
 }
